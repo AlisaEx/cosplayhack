@@ -14,13 +14,7 @@ body {
 
 .logo-container{
   text-align: right;
-    background-color: #E3F5D5;
-  border: 3px solid black;
-  opacity: .85;
-    filter: alpha(opacity=50); 
-    -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .85;
-    -moz-opacity: .85;  
+     
 }
 
 .logo {
@@ -33,22 +27,29 @@ body {
   margin-top: 0px;
   display:inline-block;
 }
+.logo-container a:hover {
+  text-decoration:none;
+  color:white;
+}
 
 /* http://lostandtaken.com/blog/2011/6/2/6-high-quality-seamless-paper-textures.html */
-.main-content {
+/*.main-content {
   background-image: url("../img/main_content_bg.jpg");
   padding: 3em 3em 2em 3em;
   border: 0;
-}
+}*/
 
-.main-content h2 {
+/*.main-content h2 {
   font-size: 22px;
 }
 
 .main-content img {
   display: block;
-}
+}*/
 
+.email-signup{
+  color: white;
+}
 .sidebar-content {
   background: rgba(255, 255, 255, 0.5);
   padding-left: 10px;
